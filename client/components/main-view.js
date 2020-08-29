@@ -8,7 +8,7 @@ const Main = () => {
       <Header />
       <div className="flex items-center justify-center h-screen">
         <div className="bg-indigo-800 text-white font-bold rounded-lg border shadow-lg p-10">
-          <div id="title">Main
+          <div id="title" innerText="Main">Main
             <Link to="/dashboard/profile/3e9a44f1-4625-47bc-a990-b5cf38a300ab">Go To Profile</Link>
             <Link to="/dashboard">Go To Root</Link>
           </div>
