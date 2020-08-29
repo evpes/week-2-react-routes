@@ -14,7 +14,7 @@ const Profile = () => {
           <Link to="/dashboard/main">Go To Main</Link>
           <Link to="/dashboard">Go To Root</Link>
         </div>
-        <div className="bg-indigo-800 hover:text-red-500 text-white font-bold rounded-lg border shadow-lg p-10">
+        <div id="username" className="bg-indigo-800 hover:text-red-500 text-white font-bold rounded-lg border shadow-lg p-10">
           {userid}
         </div>
       </div>
